@@ -1,0 +1,27 @@
+body {
+	font-size: 1.4rem;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 3rem;
+	margin-left: 1rem;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+section:not(.text) {
+	justify-content: space-between;
+}
+
+button {
+	margin-right: 0;
+	margin-left: 0;
+}
