@@ -2,26 +2,38 @@ body {
 	font-size: 1.4rem;
 }
 
-h1 {
-	font-size: 4rem;
-}
-
-h2 {
-	font-size: 3rem;
-	margin-left: 1rem;
-}
-
 section {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: space-between;
 }
 
-section:not(.text) {
-	justify-content: space-between;
+section.text {
+	justify-content: center;
 }
 
 button {
 	margin-right: 0;
 	margin-left: 0;
+}
+
+h1 {
+	line-height: 8rem;
+	font-size: 8rem;
+	min-width: 6rem;
+	margin: 0;
+	text-align: center;
+}
+
+h2 {
+	line-height: 6rem;
+	font-size: 6rem;
+	color: #fff8;
+	margin: 0;
+	text-align: center;
+}
+
+#code1 {
+	color: white;
 }
